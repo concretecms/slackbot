@@ -1,0 +1,22 @@
+{
+  "name": "concrete5/slackbot",
+  "description": "concrete5's slackbot",
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "portlandlabs/slackbot": "dev-master"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Korvin Szanto",
+      "email": "korvinszanto@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Concrete5\\Slackbot\\": "src"
+    }
+  }
+}
